@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>James Stephenson jQuery UI - Assignment 7</title>
+	
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="Asgn7.css">
+	
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script src="Asgn7.js"></script>
+
+
+</head>
+
+<body>
+	<h1>Health Care Exchange - First Draft</h1>
+	
+	<div id="tabs">
+		<ul>
+			<li><a href="#signUp">Sign Up</a></li>
+			<li><a href="#pickPlan">Pick a Plan</a></li>
+			<li><a href="#howYouFeel">How do you Feel?</a></li>
+		</ul>
+		
+		<div id="signUp">
+			<h3>Sign Up</h3>
+			<p>First Name:<br>
+			<input type="text" id="firstName" name="firstName" required> <span class="error" id="firstError"></span>
+			</p>
+
+
+			<p>Last Name:<br>
+			<input type="Text" id="lastName" name="lastName" required> <span class="error" id="lastError"></span>
+			</p>
+			
+
+			
+			<p>Start Date:<br>
+			<input type="text" id="datePicker"> <span class="error" id="dateError"></span>
+			</p>
+			
+			<input type="button" id="createAccount" value="Create an Account">
+			<span class="error" id="signUpError"></span>
+			<span id="signUpMessage"></span>
+
+		</div>
+		
+		<div id="pickPlan">
+			
+			<div class="draggable" id="greatPlan">
+			<p><br>Great Plan!</p>
+			</div>
+			
+			<div class="draggable" id="poorPlan">
+			<p><br>Poor Plan!</p>
+			</div>
+			
+			<div class="droppable" id="dropHere">
+				<p><br>Drop your plan here</p>
+			</div>
+		</div>
+		
+		<div id="howYouFeel">
+			<input type="button" id="feelingClick" value="Show My Feelings">
+			
+			<div id="feelingWindow" class="ui-widget-content">
+				<p id="feelingText">How do you feel now?</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

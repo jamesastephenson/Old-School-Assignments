@@ -1,0 +1,22 @@
+body {
+	font-family: Ariel,Verdana, sans-serif;
+	background-color: LightGreen;
+}
+
+
+p {
+	color: Black;
+	padding: 15px;
+}
+
+#container {width:60%;}
+
+.pcolor {font-weight: bold;}
+
+.headcolor {
+	color:white;
+	background-color: LimeGreen;
+	padding: 15px;
+}
+
+#final_message {color: blue;};

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Assignment 6</title>
+	<link rel="stylesheet" href="Assignment_6.css">
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+   	<script src="JQuery_Asgn6_Stephenson.js"></script>
+</head>
+
+<body>
+    <div id="top">
+	<h1>Assignment 6</h1>
+	<h3>Enter Employment Statistics</h3>
+	<form>
+		<br>
+		<label for="first_name">First Name:</label>
+		<input type="text" id="first_name" name="first_name" required> <span class="error" id="first_error"></span>
+		<br>
+		<label for="last_name">Last Name:</label>
+		<input type="text" id="last_name" name="last_name" required> <span class="error" id="last_error"></span>
+		<br>
+		Male <input type="radio" name="gender" value="M">
+		Female <input type="radio" name="gender" value="F"> <span class="error" id="gender_error"></span>
+		<br>
+		Years Experience:
+		<select id="years" size="1">
+			<option value="-">-</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+		</select>
+
+		<span class="error" id="years_error"></span>
+
+		<br><br>
+		<input type="button" id="mysubmit" value="Submit Form">
+		<br>
+	</form>
+	</div>
+
+	<div id="message">
+	</div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<title>Assignment 3 - Register</title>
+
+	<script src="asgn_3_stephenson.js"></script>
+	
+	<style>
+	
+		body {
+			background-color: #E6E6D3;
+			font-family: Ariel, Helvetica, sans-serif;
+		}
+		
+		.errormsg {color: red;}
+		
+		#patron {
+			background-color: lightblue;
+			width: 780px;
+			padding: 10px;
+		}
+		
+	</style>
+
+</head>
+
+<body>
+
+<div id="logo">
+	<img src="http://profperry.com/Classes20/JQueryNew/Assignment_3/KingLibLogo.jpg" alt="King Real Estate Logo">
+</div>
+
+<div id="patron">
+	<form method="post" id="myform" action="http://profperry.com/Classes20/JQueryNew/Assignment_3_PHP/assignment_3.php">
+
+	<p class="topofdiv">Please sign up</p>
+
+	<p>
+	First Name:<br>
+	<input type="text" name="firstname" id="firstname" size="30">
+	<span class="errormsg" id="firstnameerror"></span>
+	</p>
+
+	<p>
+	Last Name:<br>
+	<input type="text" name="lastname" id="lastname" size="30">
+	<span class="errormsg" id="lastnameerror"></span>
+	</p>
+
+	<p>
+	Email:<br>
+	<input type="text" name="email" id="email" size="40">
+	<span class="errormsg" id="emailerror"></span>
+	</p>
+
+	<p>
+	City of Residence<br>
+	<select name="city" id="city" size="1" >
+		<option value="-">-</option>
+		<option value="Chicago">Chicago</option>
+		<option value="Detroit">Detroit</option>
+		<option value="Toronto">Toronto</option>
+	</select>
+	<span class="errormsg" id="cityerror"></span>
+	</p>
+
+	<p>
+		Donation for the "Books for Kids" program  (Enter 0 if none): <br>
+		<input type="text" name="donation" id="donation" size="7">
+		<span class="errormsg" id="donationerror"></span>
+	</p>
+
+	<p>
+		<input type="button" id="addpatron" value="Add Patron">&nbsp;&nbsp;&nbsp;
+		<input type="button" id="clearfields" value="Clear Fields">&nbsp;&nbsp;&nbsp;
+		<span class="errormsg" id="endmessage"></span>
+	</p>
+
+	</form>
+	
+	<br><br>
+
+</div>
+
+</body>
+</html>

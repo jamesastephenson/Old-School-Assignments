@@ -1,0 +1,65 @@
+body {
+	background-color: LemonChiffon;
+}
+
+h1 {
+	color: Blue;
+}
+
+#tabs {
+	background-color: LightGrey;
+}
+
+#signUpMessage {
+	color: green;
+	font-weight: bold;
+}
+
+
+#feelingWindow {
+	border: 1px solid black;
+	background-color: white;
+}
+
+#feelingText {
+	padding-left: 0.5em;
+	font-size: 24pt;
+	font-weight: bold;
+}
+
+.draggable {
+	width: 100px;
+	height: 100px;
+	padding: 0.5 em;
+	margin: 10px;
+	background-color: White;
+	text-align: center;
+	font-weight: bold;
+	float: left;
+}
+
+.droppable {
+	width: 200px;
+	height: 200px;
+	padding: 0.5em;
+	margin: 10px;
+	background-color: Grey;
+	text-align: center;
+	font-weight: bold;
+	float: left;
+	}
+	
+.dropped {
+	width: 200px;
+	height: 200px;
+	padding: 0.5em;
+	margin: 10px;
+	background-color: FloralWhite;
+	text-align: center;
+	font-weight: bold;
+	float: left;
+}
+	
+.error {
+	color: Red;
+}

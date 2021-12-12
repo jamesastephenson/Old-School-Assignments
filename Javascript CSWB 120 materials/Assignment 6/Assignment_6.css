@@ -1,0 +1,33 @@
+/* type selectors */
+article, aside, figure, figcaption, footer, header, nav, section {
+    display: block;
+}
+
+* {
+	margin: 10;
+	padding: 10;
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 650px;
+	background-color: silver;
+}
+
+h1 {
+	font-size: 150%;
+}
+
+h2 {
+	font-size: 120%;
+	padding: .25em 0 .25em 25px;
+}
+
+p {
+	padding-bottom: .25em;
+	padding-left: 25px;
+}
+
+.error {
+	color: red;
+}
