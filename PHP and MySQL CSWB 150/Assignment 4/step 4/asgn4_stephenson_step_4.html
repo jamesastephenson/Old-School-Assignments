@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta chraset="utf-8">
+	<title>James Stephenson CSWB 150 - Assignment 4</title>
+</head>
+
+<body style="background-color: lightblue;">
+	<div id="logo">
+		<img src="http://profperry.com/Classes20/PHPwithMySQL/KingLibLogo.jpg" alt="King Real Estate logo">
+	</div>
+	
+	<br>
+	<span style="color: blue;">Enter a KeyWord to Search for Titles:</span>
+	<br>
+	
+	<form method="post" action="asgn4_stephenson_step_4.php">
+		<br>
+		<input type="text" name="userSearch" size="30">
+		
+		Sort Order:
+		<input type="radio" name="searchOrder" value="ascending" checked>
+		<label for="ascending">Ascending</label>
+		
+		<input type="radio" name="searchOrder" value="descending">
+		<label for="descending">Descending</label>
+		<br>
+		
+		<p>(Leave blank to list all titles)</p>
+		
+		<input type="submit" value="Find Titles">
+	</form>
+</body>
+</html>
+	

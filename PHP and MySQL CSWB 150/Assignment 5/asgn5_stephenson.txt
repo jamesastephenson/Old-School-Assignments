@@ -1,0 +1,69 @@
+
+// PART 1
+//TESTED. Good to go
+create table employee
+	(
+	ssn varchar(11) primary key, 
+	lastname varchar(40) not null, 
+	firstname varchar(30) null, 
+	department_code int(3) not null, 
+	annual_salary numeric (9,2) null, 
+	hire_date date not null
+	);
+	
+	
+// PART 2
+//TESTED. Good to go 
+create table department
+	(
+	department_code int(3) primary key,
+	department_name varchar(30) not null
+	);
+	
+	
+// PART 3
+//TESTED. Good to go 
+insert into employee (ssn, lastname, firstname, department_code, annual_salary, hire_date) 
+values('111-22-3333', 'Smith', 'John', 234, 50000, '1999-10-15');
+
+insert into employee (ssn, lastname, firstname, department_code, annual_salary, hire_date) 
+values('222-33-4444', 'Jones', 'Mary', 234, 56000, '1998-01-02');
+
+
+// PART 4
+//TESTED. Good to go 
+insert into department (department_code, department_name) 
+values(234, 'Information Services');
+
+insert into department (department_code, department_name)
+values(456, 'Systems Group');
+
+insert into department (department_code, department_name) 
+values(657, 'Payroll');
+
+
+// PART 5
+//TESTED. Good to go 
+select lastname, firstname, hire_date 
+from employee 
+order by lastname;
+
+// PART 6
+//TESTED. Good to go 
+select avg(annual_salary) 
+from employee;
+
+// PART 7
+//TESTED. Good to go 
+delete from employee 
+where lastname like 'Smith';
+
+// PART 8
+//TESTED. Good to go
+update employee 
+set annual_salary = annual_salary + 1000;
+
+
+// PART 9
+//TESTED. Good to go 
+drop table department;
