@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+body {background-color: #ffc9c9;
+	  font-family: Arial, Verdana, sans-serif;
+	  margin-top: 2em;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 60%;
+	  }
+		
+h1 { color: #ffc9c9;
+	 background-color: black;
+	 padding: 0.5em;
+	 text-align: center;}
+		
+h2 {font-size: 3em;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	position: absolute;
+	top: 35%;
+	bottom: 50%;
+	left: 39%;
+	text-align: center}
+		
+h3 {font-weight: bold;
+	padding-left: 1em;}
+
+img {display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+	 padding-top: 1em;}
+
+p {font-size: 1.1em;
+   padding: 1em;
+   color: lightyellow;
+   text-align: center;
+   text-shadow: 2px 2px 1px black;}
+		
+a {font-weight: bold;
+   color: blue;}
+		
+a:hover {color: purple;}
+		
+#container {background-color: none;
+			margin: auto;
+			width: 100%;
+		    height: 100%;
+			background-image: url("Images/ocean.PNG");
+	  		background-repeat: no-repeat;}
+
+#textBox {background: rgba(72, 72, 72, 0.75);
+  		  border: 1px grey;
+ 		  border-radius: 10px;
+		  width: 70%;
+		  margin-left: auto;
+		  margin-right: auto;}
+
