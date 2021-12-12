@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta chraset="utf-8">
+	<title>James Stephenson CWB 150 - Assignment 1: Register</title>
+	
+	<link rel="stylesheet" href="css/assignment_1.css">
+	
+</head>
+
+<body>
+	<div id="logo">
+		<img src="http://profperry.com/Classes20/PHPwithMySQL/KingLibLogo.jpg" alt="King Real Estate logo">
+	</div>
+	
+	<p id="promptText">Please sign up.</p>
+	
+	<form method="post" action="assignment_1_add_patron.php">
+	<p>First Name: <br>
+	<input type="text" name="firstName" size="30">
+
+	<p>Last Name: <br>
+	<input type="text" name="lastName" size="30">
+	
+	<p>Email<br>
+	<input type="text" name="email" size="30">
+	</p>
+	
+	<p>City of Residence<br>
+		<select name="cityName" size="1">
+			<option value="-">-</option>
+			<option value="Chicago">Chicago</option>
+			<option value="Detroit">Detroit</option>
+			<option value="Toronto">Toronto</option>
+		</select>
+	</p>
+	
+	<input type="submit" value="Submit Information">
+	</form>
+	
+	
+</body>
+</html>
+	

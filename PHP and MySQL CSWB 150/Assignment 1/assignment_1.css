@@ -1,0 +1,27 @@
+form {
+	margin-top: 10em;
+	margin: 2em;
+}
+
+#promptText {
+	margin-left: 2em;
+	font-weight: bold;
+}
+
+#registerInfo {
+	margin-left: 2em;
+}
+
+#registerInfo p {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #F0E68C;
+}
+
+/*
+#logo { position: absolute; top: 0px; left: 0px; width: 800px; }
+*/

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta chraset="utf-8">
+	<title>James Stephenson CSWB 150 - Assignment 2: Register</title>
+	
+	<link rel="stylesheet" href="css/KingLib_3.css">
+	
+</head>
+
+<body>
+	<div id="logo">
+		<img src="http://profperry.com/Classes20/PHPwithMySQL/KingLibLogo.jpg" alt="King Real Estate logo">
+	</div>
+	
+	<div id="formField">
+	<p id="promptText">Please sign up.</p>
+	
+	<form method="post" action="assignment_3_add_patron.php">
+	<p>First Name: <br>
+	<input type="text" name="firstName" size="30">
+	</p>
+
+	<p>Last Name: <br>
+	<input type="text" name="lastName" size="30">
+	</p>
+	
+	<p>Email:<br>
+	<input type="text" name="email" size="30">
+	</p>
+		
+	<p>Birth Year:<br>
+	<input type="text" name="birthYear" size="4" maxlength="4">
+	</p>
+	
+	<p>City of Residence<br>
+		<select name="cityName" size="1">
+			<option value="-">-</option>
+			<option value="Chicago">Chicago</option>
+			<option value="Detroit">Detroit</option>
+			<option value="Toronto">Toronto</option>
+		</select>
+	</p>
+	
+	<input type="submit" value="Submit Information">
+	</form>
+	
+	<p>For Admin Use Only: <a href="assignment_3_view_patrons.php">
+	<span style="text-decoration: underline; color: blue;">View Patrons</span></a></p>
+	</div>
+</body>
+</html>
+	
